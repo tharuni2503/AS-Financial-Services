@@ -1,0 +1,20 @@
+.calc-sec{padding:56px 0 84px;background:#fbf8f0}.calc-wrap{width:min(1180px,92%);margin:0 auto}
+.calc-tabs{display:flex;gap:8px;overflow-x:auto;padding-bottom:8px;margin-bottom:24px;scrollbar-width:thin}
+.calc-tab{flex:none;border:1px solid #eadfc2;background:#fff;color:#12294d;font:600 .86rem inherit;padding:10px 16px;border-radius:99px;cursor:pointer;transition:all .2s}
+.calc-tab[aria-selected=true]{background:#12294d;color:#fff;border-color:#12294d;box-shadow:0 8px 18px -8px #12294d88}
+.calc-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:22px;align-items:start}
+.calc-box{background:#fff;border:1px solid #eadfc2;border-radius:20px;padding:28px;box-shadow:0 16px 40px -24px rgba(18,41,77,.3)}
+.calc-box h2{font:700 1.4rem Georgia,serif;color:#12294d;margin:0 0 4px}.calc-box>p{color:#6b7a8f;font-size:.88rem;margin:0 0 20px}
+.cf{margin-bottom:18px}.cf-top{display:flex;justify-content:space-between;align-items:center;gap:10px;font-size:.84rem;font-weight:700;color:#12294d;margin-bottom:8px}
+.cf-top input,.cf-top select{width:128px;text-align:right;border:1px solid #eadfc2;border-radius:8px;padding:6px 9px;font:700 .85rem inherit;color:#9a7420;background:#fffaf0}
+.cf input[type=range]{width:100%;accent-color:#b8902e}
+.res{background:linear-gradient(160deg,#12294d,#1c3a6b);color:#fff;border-radius:20px;padding:28px;position:sticky;top:96px}
+.res small{letter-spacing:.14em;text-transform:uppercase;font-size:.66rem;color:#e3c46b;font-weight:800}
+.res .big{font:700 2.4rem/1.1 Georgia,serif;margin:6px 0 18px}.res .big.warn{font-size:1.2rem}
+.res dl{margin:0;display:grid;gap:10px}.res dl div{display:flex;justify-content:space-between;gap:12px;border-top:1px solid #ffffff22;padding-top:10px;font-size:.88rem}
+.res dt{color:#c9d4e6}.res dd{margin:0;font-weight:700}
+.res .split{height:10px;border-radius:9px;background:#e3c46b;overflow:hidden;margin:6px 0 18px}.res .split i{display:block;height:100%;background:#fff;transition:width .5s}
+.res .note{font-size:.72rem;color:#a9b8d0;margin:16px 0 0}
+.res .acts{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}.res .acts a{flex:1;text-align:center;padding:11px 14px;border-radius:12px;font-weight:700;font-size:.85rem;text-decoration:none}
+.res .acts .g{background:linear-gradient(180deg,#d4b05a,#b8902e);color:#fff}.res .acts .o{border:1px solid #ffffff55;color:#fff}
+@media(max-width:900px){.calc-grid{grid-template-columns:1fr}.res{position:static}}
